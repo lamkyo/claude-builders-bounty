@@ -29,7 +29,7 @@ An automated **n8n workflow** that gathers weekly activity from any GitHub repos
 | **Claude API Synthesis** | ✅ | Employs `claude-sonnet-4-20250514` with structured executive prompt |
 | **Multi-Channel Delivery** | ✅ | Standard HTTP POST payload compatible with Discord, Slack & Telegram |
 | **Configurable Variables** | ✅ | Centralized node for Repo, Channel Webhook, and Language (EN/FR) |
-| **Execution Proof** | ✅ | Detailed run output verified in [`sample_payload.json`](./sample_payload.json) |
+| **Sample Payload** | ✅ | Detailed run output verified in [`sample_payload.json`](./sample_payload.json) |
 | **<= 5-Step Setup** | ✅ | Clean 5-step quickstart in README |
 
 ---
@@ -40,3 +40,6 @@ An automated **n8n workflow** that gathers weekly activity from any GitHub repos
 - **Payout Rails**:
   - **PayPal (USD)**: `lamvukyo3001@gmail.com`
   - **EVM Crypto (USDC/USDT)**: `0x24A2151Ec787a2C5c81412A888c3a9d9eEc3beEA` (Arbitrum / Base / Polygon / Ethereum)
+
+
+> Note: Status is UNVERIFIED_CREDENTIAL_TYPE until node credentials import is tested on a live n8n instance.
