@@ -1,15 +1,13 @@
 import sys
 import os
-import importlib.util
+import importlib.machinery
 
 # Load module from file with hyphens
 module_name = "pre_tool_use"
 file_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "pre-tool-use")
 
-spec = importlib.util.spec_from_file_location(module_name, file_path)
-pre_tool_use = importlib.util.module_from_spec(spec)
-sys.modules[module_name] = pre_tool_use
-spec.loader.exec_module(pre_tool_use)
+loader = importlib.machinery.SourceFileLoader(module_name, file_path)
+pre_tool_use = loader.load_module()
 
 check_destructive = pre_tool_use.check_destructive
 
