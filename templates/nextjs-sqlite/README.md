@@ -1,6 +1,6 @@
 # Next.js 15 + SQLite SaaS CLAUDE.md Template
 
-A production-ready, highly opinionated `CLAUDE.md` configuration designed for greenfield SaaS applications built with **Next.js 15 (App Router)** and **SQLite (better-sqlite3 / Turso / Drizzle ORM)**.
+A opinionated production baseline, highly opinionated `CLAUDE.md` configuration designed for greenfield SaaS applications built with **Next.js 15 (App Router)** and **SQLite (better-sqlite3 / Turso / Drizzle ORM)**.
 
 ---
 

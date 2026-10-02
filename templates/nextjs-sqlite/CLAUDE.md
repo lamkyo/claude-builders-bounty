@@ -164,7 +164,7 @@ npm run lint              # ESLint & type check
 # Database (Drizzle Kit)
 npm run db:generate       # Generate SQL migration from schema diffs
 npm run db:migrate        # Execute pending migrations against database
-npm run db:push           # Push schema directly to SQLite (rapid dev)
+npm run db:push           # Push schema directly to SQLite (DEV ONLY)
 npm run db:studio         # Launch visual Drizzle Studio GUI on localhost:4983
 
 # Testing
@@ -187,9 +187,3 @@ npm run test              # Execute Vitest test suite
 
 ---
 
-## 💳 Bounty Payout Reference
-- **GitHub Bounty**: Issue #2 ($75 USD)
-- **Contributor**: `lam534410-hub`
-- **Payout Rails**:
-  - **PayPal (USD)**: `lamvukyo3001@gmail.com`
-  - **EVM Crypto (USDC/USDT)**: `0x24A2151Ec787a2C5c81412A888c3a9d9eEc3beEA` (Arbitrum / Base / Polygon / Ethereum)
