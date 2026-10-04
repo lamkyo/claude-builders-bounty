@@ -4,6 +4,12 @@ tests/test_changelog.py
 Unit tests for generate_changelog.py commit categorization and Markdown formatting.
 """
 import unittest
+import sys
+from pathlib import Path
+
+# Ensure generate_changelog can be imported regardless of execution working directory
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from generate_changelog import categorize_commit, clean_commit_message, generate_markdown
 
 
